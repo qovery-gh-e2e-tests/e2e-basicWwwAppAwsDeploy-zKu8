@@ -1,0 +1,11 @@
+application:
+  name: httpbin
+  project: basicWwwAppAwsDeployqat6wjZ2
+  publicly_accessible: true
+  organization: QoveryTest
+routers:
+  - name: main
+    routes:
+      - application_name: httpbin
+        paths:
+          - /*
